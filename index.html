@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MessMate</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Android Add-To-Home-Screen -->
+    <meta name="theme-color" content="#ff7f00"/>
+
+</head>
+<body>
+
+<header>
+    <h1>🥗 MessMate</h1>
+    <p>আপনার প্রতিদিনের খাবারের সঙ্গী</p>
+</header>
+
+<section class="dashboard">
+    <h2>এই সপ্তাহের মোট বিল: <span id="bill">৳0</span></h2>
+    <button onclick="increaseBill()">+ খাবার যোগ করুন</button>
+</section>
+
+<section>
+    <h3>আগামীকালের মেনু</h3>
+    <ul id="menu">
+        <li>খিচুড়ি</li>
+        <li>সবজি</li>
+        <li>ডিম</li>
+    </ul>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
